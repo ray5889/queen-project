@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>女王養成計畫</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans TC', sans-serif;
+      color: #ffffff;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)),
+                  url('neon_blur_bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 40px;
+      color: #ff4dcf;
+      text-shadow: 0 0 10px #ff4dcf, 0 0 25px #ff4dcf;
+      margin-bottom: 20px;
+    }
+    .subtitle {
+      font-size: 18px;
+      color: #f1f1f1;
+      margin-bottom: 40px;
+      text-shadow: 0 0 5px #ff4dcf;
+    }
+    .section {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 30px 20px;
+      margin-bottom: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(255, 77, 207, 0.3);
+    }
+    .section-title {
+      font-size: 22px;
+      color: #00ffe5;
+      margin-bottom: 15px;
+      text-shadow: 0 0 10px #00ffe5;
+    }
+    .benefits {
+      font-size: 16px;
+      line-height: 2;
+      color: #e0e0e0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 15px 28px;
+      background-color: #ff4dcf;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 50px;
+      margin-top: 15px;
+      box-shadow: 0 0 15px #ff4dcf;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #ff4dcf;
+    }
+    .pulse {
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 10px #ff4dcf; }
+      50% { box-shadow: 0 0 25px #ff4dcf; }
+      100% { box-shadow: 0 0 10px #ff4dcf; }
+    }
+    .qr-img {
+      width: 65%;
+      max-width: 240px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>女王養成計畫</h1>
+    <div class="subtitle">夢想啟程 將不可能化為可能</div>
+
+    <div class="section">
+      <div class="section-title">補助方案</div>
+      <div class="benefits">
+        ・介紹費參萬元以上<br>
+        ・節日客製化禮品<br>
+        ・租屋補助<br>
+        ・協理搬家
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">聯絡方式</div>
+      <a class="btn pulse" href="https://www.instagram.com/raaaay.y" target="_blank">一鍵加 IG 好友</a>
+      <div>
+        <img class="qr-img" src="wechat_qr_optimized.jpg" alt="微信 QR碼">
+      </div>
+      <div class="subtitle">掃描加我微信</div>
+    </div>
+  </div>
+</body>
+</html>
